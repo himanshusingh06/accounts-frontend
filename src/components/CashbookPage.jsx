@@ -6,7 +6,7 @@ import { format } from 'date-fns';
 // It's good practice to put this in a .env file (e.g., VITE_API_BASE_URL=http://localhost:8000)
 // and access it as import.meta.env.VITE_API_BASE_URL
 // For now, we'll keep it directly for clarity, but consider moving it.
-const BASE_URL = 'http://localhost:8000';
+const BASE_URL = 'https://accounts-backend-mexz.onrender.com/admin/';
 
 const CashbookPage = () => {
   const [bankAccounts, setBankAccounts] = useState([]);
