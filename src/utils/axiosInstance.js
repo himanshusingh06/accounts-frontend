@@ -2,7 +2,7 @@
 import axios from 'axios';
 
 const axiosInstance = axios.create({
-  baseURL: 'http://localhost:8000/api/', // **IMPORTANT: Set this to your Django backend API URL**
+  baseURL: 'https://accounts-backend-mexz.onrender.com/api/', // **IMPORTANT: Set this to your Django backend API URL**
   timeout: 5000, // Request timeout
   headers: {
     'Content-Type': 'application/json',
